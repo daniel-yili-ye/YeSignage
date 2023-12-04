@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_browse_fragment2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#937070"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    tools:deviceIds="tv" >
+
+    <ImageView
+        android:id="@+id/imgYesleaf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yesleaf" />
+    <TextView
+        android:id="@+id/txtvw1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:padding="10dp"
+        android:text="Yes Digi Board"
+        android:textColor="#3F51B5"
+        android:textSize="60sp" />
+    <TextView
+        android:id="@+id/txtmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center"
+        android:padding="10dp"
+        android:text="Go to https://yesdigi.com/activate to activate this device"
+        android:layout_marginTop="-80dp"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"/>
+
+    <EditText
+        android:id="@+id/txtCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center"
+        android:padding="10dp"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:id="@+id/txtmessage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center"
+        android:padding="10dp"
+        android:text="Click OK button once the device is activated"
+        android:layout_marginTop="80dp"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"/>
+    <TextView
+        android:id="@+id/txtvw2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:padding="10dp"
+        android:text="yesdigisolution.com"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"/>
+</FrameLayout>
